@@ -1,0 +1,92 @@
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: darkgray;
+}
+
+.banner {
+    background-color: lightgray;
+    width: 840px;
+    height: 175px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.banner h3 {
+    font-family: verdana;
+    font-weight: bold;
+    text-align: center;
+}
+
+.banner p {
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.banner ul {
+    padding-left: 0px;
+    margin: 0 auto;
+    position: absolute;
+    width: 840px
+}
+
+#clear {
+    float: left;
+    margin-left: 40px
+}
+
+#generate {
+    float: right;
+    margin-right: 40px;
+}
+.banner li {
+    list-style: none;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner button {
+    font-size: 18px;
+    height: 48px;
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    transition-duration: 0.4s;
+    border-radius: 20px;
+}
+
+.banner button:hover {
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+}
+
+.grid-wrapper {
+    position: relative;
+    height: 840px;
+    width: 840px;
+    background-color: darkred;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.grid {
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.row {
+    background-color: white;
+}
+
+.row-cells {
+    display: table-cell;
+    height: 10px;
+    width: 10px;
+}
